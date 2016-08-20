@@ -3,6 +3,4 @@ rvm:
  - 2.2
  - jruby
  - rbx-2
-
-script: bundle install
-script: rake
+script: bundle install; bundle exec rake
